@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="panel">
+    <h1 id="heading">Todo List</h1>
+
+    <div class="form">
+        <label for="nameValue">Task: </label>
+        <input type="text" id="nameValue" placeholder="Task...">
+
+        <label for="descriptionValue">Task Description: </label>
+        <input type="text" id="descriptionValue" placeholder="Task Description..."/>
+
+        <button onclick="onClickAddNewItem()">Add New Item</button>
+    </div>
+
+    <table id="tableList">
+        <tr>
+            <th>Name</th>
+            <th>Descriptions</th>
+            <th>State</th>
+            <th></th>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    padding: 25px;
+    background-color: #F0F8FF;
+    min-height: 920px;
+}
+
+.panel {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.form {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+input {
+    min-width: 350px;
+    min-height: 20px;
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #3399ff;
+    text-align: left;
+    padding: 8px;
+}
+
+.state {
+    min-width: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+.remove {
+    font-size: large;
+    text-align: center;
+}
